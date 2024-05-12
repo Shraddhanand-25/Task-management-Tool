@@ -53,16 +53,3 @@ such occasions *(e.g. Housework) in the Year, which is associated with the Perio
 Tasks can be Completed, Not Completed or Dropped. A dropped task is a task which was meant to be completed, but has
 been discarded for some reason. A dropped task does not impact the progress bar of tasks completion in any way.
 
-# Technical Brief
-
-### Notes
- - As of now, the main system window is fixed at 1400 x 900 pixels to preserve the necessary layout.
-There is no way of changing that size (yet!);
-
- - Currently, your database file might be saved in your AppData/Local/Temp folder. Be aware, that updating your machine or deleting
-temporary files might remove your data entirely. I recommend backing up the database file in case you accidently delete those files.
-
-### Behind Organised
-The back-end of Organised is Java whilst the front-end is made with JavaFX. SQLite is used as a local database, to avoid
-server hosting and make Organised a self-contained, standalone application. The bundle for the installer was exported
-from IntelliJ and packaged as an installer with Inno Setup script.
